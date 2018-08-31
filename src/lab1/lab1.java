@@ -17,13 +17,32 @@ public class lab1
 			
 			
 			
-			System.out.println(first+second+third);
+			System.out.println(changing(first)+
+					changing(second)+changing(third));
 		}
 			
 	}
-	public void changing()
+	public static String changing(int a)
 	{
+		String b;
 		
+		if(a==0)
+		{
+			b = "A";
+		}
+		else if(a==1)
+		{
+			b = "C";
+		}
+		else if(a==2)
+		{
+			b = "G";
+		}
+		else
+		{
+			b = "T";
+		}
+		return b;
 	}
 
 }
