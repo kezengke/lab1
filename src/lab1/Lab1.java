@@ -78,7 +78,7 @@ public class Lab1
 			double chi = chisq(count3,na);
 			
 			double p = pochisq(chi, df);
-			System.out.println(p);
+			//System.out.println(p);
 			
 		}
 	}
