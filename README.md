@@ -1,2 +1,2 @@
 # lab1
-labs
+lab1
